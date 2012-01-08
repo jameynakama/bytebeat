@@ -1,0 +1,21 @@
+*-- BYTEBEAT --*
+
+Author: Jamey DeOrio
+
+Description: This simple script allows you to pipe math equations through your audio device to discover algorithmic music.
+
+Dependencies: This script was developed on Mac OS X Lion and requires SoX to work. This is a cross-platform utility, though, so it should hypothetically work on Windows and Linux as well.
+
+SoX -> http://sox.sourceforge.net/
+
+Download the appropriate SoX package and move sox, play, rec, and soxi onto your path.
+
+Usage: Currently, usage is kind of user-unfriendly but still simple enough. Edit the math equation in bytebeat.py to your liking and then run the script and pipe it through sox with the following command:
+
+$ python bytebeat.py | sox -r 8000 -b 8 -c 1 -t raw -s - -d
+
+For more information, visit viznut's blog posts:
+
+Introduction -> http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html
+
+In-depth analysis -> http://countercomplex.blogspot.com/2011/10/some-deep-analysis-of-one-line-music.html

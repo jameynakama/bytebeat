@@ -1,0 +1,4 @@
+blippy, epic: (t*((15&t>>11)%12)&55-(t>>5|t>>12)|t*(t>>10)*32)-1
+atmospheric, hopeful: t*3&(t>>10)|t*12&(t>>10)|t*10&((t>>8)*55)&128
+expansive rumbles: t*4&(t>>10)|t*4&(t*6>>8)&t|64
+electric, repetitive: t*(t+(t>>9|t>>13))%40&120
